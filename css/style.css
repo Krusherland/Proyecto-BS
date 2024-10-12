@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lobster&family=Pacifico&display=swap");
+
+* {
+  font-family: "Lobster", sans-serif;
+  color: white;
+  font-size: 40px;
+  -webkit-text-stroke: 1px black;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: linear-gradient(
+    to right top,
+    #270701,
+    #3e0f0a,
+    #58150f,
+    #721c10,
+    #8c250d,
+    #a0390c,
+    #b44e0a,
+    #c66304,
+    #d68415,
+    #e4a42a,
+    #f0c543,
+    #fbe65f
+  );
+}
+
+header,
+.store,
+.products,
+.tasteSomeofUs,
+.left,
+.right {
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+header {
+  width: 100%;
+  background-image: url(../Assets/Header.jpg);
+}
+
+.navLinks li {
+  display: inline-flex;
+  align-items: flex-start;
+  align-items: flex-end;
+  align-items: center;
+  align-items: stretch;
+}
+
+.tasteSomeofUs {
+  background-image: url(../Assets/Pastries.jpg);
+}
+
+.products {
+  div {
+    display: inline-flex;
+    align-items: flex-start;
+    align-items: flex-end;
+    align-items: center;
+    align-items: stretch;
+  }
+
+  h4 {
+    position: absolute;
+  }
+}
+.store .left,
+.right {
+  margin: 10px;
+  padding: 10px;
+  width: 500px;
+  height: 400px;
+  text-align: center;
+  flex-wrap: wrap;
+  display: inline-flex;
+  align-items: flex-start;
+  align-items: flex-end;
+  align-items: center;
+  align-items: stretch;
+  p,
+  h3,
+  a {
+    color: black;
+    -webkit-text-stroke: 1px white;
+  }
+}
+.left {
+  background-image: url(../Assets/left.jpg);
+}
+
+.right {
+  background-image: url(../Assets/right.webp);
+}
+header,
+footer {
+  text-align: center;
+  display: inline-flex;
+  align-items: flex-start;
+  align-items: flex-end;
+  align-items: center;
+  align-items: stretch;
+}
+
+section img {
+  height: 300px;
+  width: 200px;
+}
+
+h1 {
+  font-size: 4rem;
+}
+h2,
+h3 {
+  font-size: 1.5rem;
+}
+
+.navFooter li {
+  font-size: 1rem;
+}
+
+.letter {
+  width: 300px;
+  height: 250px;
+  input {
+    color: black;
+  }
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+
+.logo {
+  width: 100px;
+}
