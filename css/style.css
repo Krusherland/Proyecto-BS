@@ -43,6 +43,7 @@ footer,
 header,
 footer {
   background-image: url(../Assets/Header.jpg);
+  padding-right: 20px;
 }
 .store {
   background-image: url(../Assets/open-a-bakery-header.jpg);
