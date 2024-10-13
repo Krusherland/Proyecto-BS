@@ -37,6 +37,7 @@ header,
   background-size: cover;
   background-position: center;
   text-align: center;
+  justify-content: center;
 }
 
 header {
