@@ -86,7 +86,6 @@ footer {
   align-items: center;
   align-items: stretch;
   p,
-  h3,
   a {
     color: black;
     -webkit-text-stroke: 1px white;
