@@ -8,6 +8,7 @@
   -webkit-text-stroke: 1px black;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -29,6 +30,7 @@ body {
 }
 
 header,
+footer,
 .store,
 .products,
 .tasteSomeofUs,
@@ -36,14 +38,15 @@ header,
 .right {
   background-size: cover;
   background-position: center;
-  justify-content: center;
 }
 
-header {
-  width: 100%;
+header,
+footer {
   background-image: url(../Assets/Header.jpg);
 }
-
+.store {
+  background-image: url(../Assets/open-a-bakery-header.jpg);
+}
 .navLinks li {
   display: inline-flex;
 }
@@ -54,24 +57,28 @@ header {
 
 .products {
   div {
+    padding: 50px;
     display: inline-flex;
     align-items: flex-start;
-    align-items: flex-end;
-    align-items: center;
-    align-items: stretch;
+    justify-content: space-between;
   }
 
   h4 {
     position: absolute;
   }
 }
+.store {
+  padding-bottom: 30px;
+}
+.letter {
+  padding: 100px;
+}
 .store .left,
 .right {
   margin: 10px;
   padding: 10px;
   width: 500px;
-  height: 400px;
-  text-align: center;
+  height: 350px;
   flex-wrap: wrap;
   display: inline-flex;
   align-items: flex-start;
@@ -94,10 +101,13 @@ header {
 }
 header,
 footer {
+  width: 100%;
   display: inline-flex;
   align-items: flex-start;
   align-items: flex-end;
   align-items: stretch;
+  justify-content: space-between;
+  justify-items: flex-start;
 }
 
 section img {
