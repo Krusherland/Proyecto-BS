@@ -36,7 +36,6 @@ header,
 .right {
   background-size: cover;
   background-position: center;
-  text-align: center;
   justify-content: center;
 }
 
@@ -98,7 +97,6 @@ footer {
   display: inline-flex;
   align-items: flex-start;
   align-items: flex-end;
-  align-items: center;
   align-items: stretch;
 }
 
@@ -140,4 +138,7 @@ ul {
 
 .logo {
   width: 100px;
+  height: 100px;
+  margin: 1px;
+  padding: 1px;
 }
